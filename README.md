@@ -1,10 +1,10 @@
 # 🔢 JavaScript Counter
 
-> A clean, minimal counter app — increment, decrement, and reset with a click. Built with pure HTML, JavaScript, and Bootstrap.
+> A clean, minimal counter app — increment, decrement, and reset with a click. Built with pure HTML, CSS, and JavaScript. No frameworks, no AI.
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
 
 ---
@@ -31,8 +31,8 @@ A simple interactive counter with three controls:
 
 - Live counter display updated instantly
 - Increment, decrement, and reset functionality
-- Clean, centered layout
-- Lightweight — no dependencies beyond Bootstrap
+- Custom CSS styling — no frameworks used
+- Lightweight — zero dependencies
 
 ---
 
@@ -41,11 +41,11 @@ A simple interactive counter with three controls:
 | Technology | Purpose |
 |------------|---------|
 | HTML5 | Page structure |
+| CSS3 | Custom styling & layout |
 | JavaScript (vanilla) | Counter logic & DOM manipulation |
-| Bootstrap | UI styling & layout |
 | Netlify | Hosting & deployment |
 
-> ✍️ **Entirely hand-written** — no templates, no AI code generation.
+> ✍️ **100% hand-written** — no Bootstrap, no templates, no AI code generation.
 
 ---
 
@@ -53,7 +53,9 @@ A simple interactive counter with three controls:
 
 ```
 domingcounter/
-├── index.html      # Main page (HTML + JS + Bootstrap)
+├── index.html      # Main page structure
+├── style.css       # Custom CSS styling
+├── app.js          # Counter logic
 └── README.md       # You are here
 ```
 
